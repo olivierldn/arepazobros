@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(217, 201, 0);
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+header {
+  background: url(./Arepa-banner.jpg);
+  background-size: cover;
+
+  width: 100vw;
+  height: 70vw;
+}
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+#about {
+  width: 100vw;
+  height: 50vw;
+  background: url(./about222.jpg);
+  background-size: cover;
+  color: rgba(255, 255, 255, 0.712);
+}
+#about h1 {
+  font-size: 2.5rem;
+}
+#about h2 {
+  padding: 20px;
+  font-size: 1.5em;
+}
+#about hr {
+  opacity: 30%;
+}
+#menu {
+  margin-top: 5px;
+
+  height: 200vw;
+  background: url(./menu.jpg);
+  background-size: cover;
+  color: rgba(255, 255, 255, 0.712);
+}
+#menu hr {
+  border: 1px solid rgb(0, 0, 0);
+  margin-bottom: 17px;
+  opacity: 30%;
+}
+#menu h1 {
+  margin-bottom: 5px;
+  font-size: 2.5rem;
+}
+#menu h2 {
+  margin-bottom: 8px;
+  margin-top: 20px;
+  margin-left: 40px;
+  font-size: 1.8rem;
+  text-decoration: underline;
+  text-align: left;
+}
+#menu h3 {
+  text-transform: uppercase;
+  margin-left: 40px;
+  margin-right: 35px;
+  font-stretch: semi-expanded;
+  text-align: left;
+  color: rgb(134, 29, 29);
+}
+hr {
+  border: 1px solid rgb(0, 0, 0);
+}
+#hr {
+  margin-top: 30px;
+}
+#locations h1 {
+  margin-bottom: 5px;
+  font-size: 2.5rem;
+}
+#lock {
+  text-align: center;
+  width: 100vw;
+  height: 80vw;
+  background: url(./lock1.jpg);
+  background-size: cover;
+  color: rgba(236, 105, 155, 0.836);
+  -webkit-text-stroke: 2px rgb(0, 0, 0);
+}
+
+#lock hr {
+  border: 1px solid rgb(0, 0, 0);
+  margin-bottom: 17px;
+}
+#lock h2 {
+  font-size: 3.2em;
+  padding-top: 30%;
+}
+#locations h3 {
+  font-size: 1.8em;
+}
+#buck {
+  text-align: center;
+  width: 100vw;
+  height: 80vw;
+  background: url(./buck.jpg);
+  background-size: cover;
+  color: rgba(71, 179, 241, 0.836);
+  -webkit-text-stroke: 2px rgb(0, 0, 0);
+}
+
+#buck hr {
+  border: 1px solid rgb(0, 0, 0);
+  margin-bottom: 17px;
+}
+#buck h2 {
+  font-size: 3.2em;
+  padding-top: 30%;
+}
+#gallery img {
+  width: 95vw;
+  margin: auto;
+}
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-contact {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.37);
+  margin-top: 50px;
+}
+.form-group {
+  margin-bottom: 1.5em;
+}
+.form-label {
+  font-size: 0.75em;
+  color: red;
+  display: block;
+  opacity: 1;
+}
+.form-control {
+  box-shadow: none;
+  border-radius: 0;
+  border-color: #ccc;
+  border-style: none none solid none;
+  width: 100%;
+  font-size: 1.25em;
+}
+.form-control::placeholder {
+  color: #aaa;
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color: green;
+  outline: none;
+}
+.btn {
+  background: 0 0 #fff;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  color: red;
+  font-size: 1em;
+  padding: 10px 50px;
+  text-transform: uppercase;
+}
+.btn:hover {
+  border-color: green;
+  color: blue;
+}
+textarea {
+  resize: none;
+}
+.map {
+  width: 100vw;
+  height: 40vh;
+}
+.social {
+  font-size: 69px;
+}
+footer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 332px) {
+  #about h2 {
+    padding: 5px;
+    font-size: 1.4em;
+  }
+}
+
+@media screen and (max-width: 308px) {
+  #lock h2 {
+    font-size: 3em;
+    padding-top: 20%;
+  }
+
+  #buck h2 {
+    font-size: 3em;
+    padding-top: 20%;
+  }
+}
+
+@media screen and (max-width: 332px) {
+  #about h2 {
+    padding: 5px;
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (max-width: 269px) {
+  #lock h2 {
+    font-size: 3em;
+    padding-top: 10%;
+  }
+
+  #buck h2 {
+    font-size: 3em;
+    padding-top: 10%;
+  }
+}
