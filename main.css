@@ -6,6 +6,9 @@ html {
   margin: 0;
   padding: 0;
 }
+#wrapperr {
+  max-width: 1600px;
+}
 body {
   background-color: rgb(217, 201, 0);
   text-align: center;
@@ -18,6 +21,9 @@ header {
 
   width: 100vw;
   height: 70vw;
+}
+header h1 span {
+  font-size: 0px;
 }
 .container {
   display: inline-block;
@@ -446,14 +452,14 @@ footer {
   } */
   header {
     width: 100vw;
-    height: 200px;
+    height: 250px;
 
-    background: url(./Arepa-banner-wide.jpg);
-    background-position: center center;
+    background: url(./Arepa-banner-wider.jpg);
+    background-position: center;
     background-repeat: no-repeat;
   }
   #about {
-    width: 80vw;
+    width: 100%;
   }
   #about h2 {
     padding: 15%;
@@ -462,14 +468,14 @@ footer {
     padding-right: 15%;
   }
   #menu img {
-    width: 80vw;
+    width: 100%;
     margin: 0;
   }
   #buck {
-    width: 80vw;
+    width: 100%;
   }
   #lock {
-    width: 80vw;
+    width: 100%;
   }
   #lock h2 {
     font-size: 4.5em;
@@ -486,11 +492,11 @@ footer {
   }
 
   #gallery img {
-    width: 80vw;
+    width: 100%;
   }
   .map {
-    width: 80vw;
-    height: 50vh;
+    width: 100%;
+    height: 250px;
   }
 }
 /* @media screen and (min-width: 750px) {
