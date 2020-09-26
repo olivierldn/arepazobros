@@ -435,3 +435,30 @@ footer {
     margin-top: 50px;
   }
 }
+
+@media screen and (min-width: 750px) {
+  body {
+    width: 80%;
+    margin: auto;
+  }
+  header {
+    width: 80vw;
+  }
+  #about {
+    width: 80vw;
+  }
+  #menu img {
+    width: 80vw;
+    margin: 0;
+  }
+  #buck {
+    width: 80vw;
+  }
+  #lock {
+    width: 80vw;
+  }
+  }
+  #gallery img {
+    width: 80vw;
+  }
+}
