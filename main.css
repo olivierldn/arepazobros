@@ -447,6 +447,55 @@ footer {
   #about {
     width: 80vw;
   }
+  #about h2 {
+    padding: 15%;
+    font-size: 2.2em;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  #menu img {
+    width: 80vw;
+    margin: 0;
+  }
+  #buck {
+    width: 80vw;
+  }
+  #lock {
+    width: 80vw;
+  }
+  #lock h2 {
+    font-size: 4.5em;
+    padding-top: 40%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  #buck h2 {
+    font-size: 4.5em;
+    padding-top: 40%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  #gallery img {
+    width: 80vw;
+  }
+  .map {
+    width: 80vw;
+    height: 50vh;
+  }
+}
+/* @media screen and (min-width: 750px) {
+  body {
+    width: 80%;
+    margin: auto;
+  }
+  header {
+    width: 80vw;
+  }
+  #about {
+    width: 80vw;
+  }
   #menu img {
     width: 80vw;
     margin: 0;
@@ -465,4 +514,4 @@ footer {
     width: 80vw;
     height: 50vh;
   }
-}
+} */
