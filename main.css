@@ -113,7 +113,10 @@ header {
 #menu img {
   width: 100vw;
 }
-
+#menu h1 {
+  margin-bottom: 5px;
+  font-size: 2.5em;
+}
 /* #menu {
   margin-top: 5px;
 
@@ -127,10 +130,7 @@ header {
   margin-bottom: 17px;
   opacity: 30%;
 }
-#menu h1 {
-  margin-bottom: 5px;
-  font-size: 2.5em;
-}
+
 #menu h2 {
   margin-bottom: 8px;
   margin-top: 20px;
@@ -457,8 +457,11 @@ footer {
   #lock {
     width: 80vw;
   }
-  }
+
   #gallery img {
+    width: 80vw;
+  }
+  .map {
     width: 80vw;
   }
 }
