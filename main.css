@@ -454,7 +454,7 @@ footer {
     width: 100vw;
     height: 250px;
 
-    background: url(./Arepa-banner-wider.jpg);
+    background: url(./Arepa-banner-widerr.jpg);
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -499,33 +499,20 @@ footer {
     height: 250px;
   }
 }
-/* @media screen and (min-width: 750px) {
-  body {
-    width: 80%;
-    margin: auto;
-  }
-  header {
-    width: 80vw;
-  }
-  #about {
-    width: 80vw;
-  }
+
+@media screen and (min-width: 1024px) {
   #menu img {
-    width: 80vw;
+    width: 33%;
     margin: 0;
+    padding: 0;
   }
-  #buck {
-    width: 80vw;
+  #locations-wrapper {
+    display: flex;
   }
   #lock {
-    width: 80vw;
+    width: 50%;
   }
-
-  #gallery img {
-    width: 80vw;
+  #buck {
+    width: 50%;
   }
-  .map {
-    width: 80vw;
-    height: 50vh;
-  }
-} */
+}
