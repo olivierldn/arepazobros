@@ -511,8 +511,16 @@ footer {
   }
   #lock {
     width: 50%;
+    height: 60vh;
   }
   #buck {
     width: 50%;
+    height: 60vh;
+  }
+  #locations-wrapper hr {
+    display: none;
+  }
+  #gallery img {
+    width: 20%;
   }
 }
