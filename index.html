@@ -1,166 +1,147 @@
-      <!DOCTYPE html>
-      <html lang="en">
-        <head>
-          <meta charset="UTF-8" />
-          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          <title>Arepazo Bros - Venezuelan Street Kitchen</title>
-          <link rel="stylesheet" href="main.css" />
-          <script>
-            function myFunction(x) {
-              x.classList.toggle("change");
-            }
-
-            /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
-            function myFunction(x) {
-              var x = document.getElementById("myLinks");
-              if (x.style.display === "block") {
-                x.style.display = "none";
-              } else {
-                x.style.display = "block";
+        <!DOCTYPE html>
+        <html lang="en">
+          <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>Arepazo Bros - Venezuelan Street Kitchen</title>
+            <link rel="stylesheet" href="main.css" />
+            <script>
+              function myFunction(x) {
+                x.classList.toggle("change");
               }
-            }
-          </script>
-          <script src="https://kit.fontawesome.com/0135db50df.js" crossorigin="anonymous"></script>
-        </head>
-        <body>
-          
-          <header><h1><span>Arepa - Venezuelan Street Kitchen</span></h1></header>
-          <div id="wrapperr">
-          <nav>
-            <div class="container" onclick="myFunction(this)">
-              <div class="bar1"></div>
-              <div class="bar2"></div>
-              <div class="bar3"></div>
-            </div>
-            <!-- Top Navigation Menu -->
-            <div class="topnav">
-              <!-- Navigation links (hidden by default) -->
-              <div id="myLinks">
-                <a href="#about">About Us</a>
-                <a href="#menu">Menu</a>
-                <a href="#locations">Locations</a>
-                <a href="#gallery">Gallery</a>
-                <a href="#delivery">Delivery</a>
-                <a href="#contact">Contact</a>
-              
-          </nav>
+
+              /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+              function myFunction(x) {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                  x.style.display = "none";
+                } else {
+                  x.style.display = "block";
+                }
+              }
+            </script>
+            <script src="https://kit.fontawesome.com/0135db50df.js" crossorigin="anonymous"></script>
+          </head>
+          <body>
+            
+            <header><h1><span>Arepa - Venezuelan Street Kitchen</span></h1></header>
+            <div id="wrapperr">
+            <nav>
+              <div class="container" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+              <!-- Top Navigation Menu -->
+              <div class="topnav">
+                <!-- Navigation links (hidden by default) -->
+                <div id="myLinks">
+                  <a href="#about">About Us</a>
+                  <a href="#menu">Menu</a>
+                  <a href="#locations">Locations</a>
+                  <a href="#gallery">Gallery</a>
+                  <a href="#delivery">Delivery</a>
+                  <a href="#contact">Contact</a>
+                
+            </nav>
 
 
 
-          <div id="about">
-        <h1>About Us</h1>
-        <hr/>
-        <!-- <img src="about2.jpg" alt="Arepazo's food trailer"> -->
-        <h2>We are Father and Son serving Venezuelan Homemade Style Food to Londoners since 2013</h2>
-      </div>
+            <div id="about">
+          <h1>About Us</h1>
+          <hr/>
+          <!-- <img src="about2.jpg" alt="Arepazo's food trailer"> -->
+          <h2>We are Father and Son serving Venezuelan Homemade Style Food to Londoners since 2013</h2>
+        </div>
 
 
 
-      <div id="menu">
-        <h1>Menu</h1><hr>
-        <img src="menu1.jpeg" alt="">
-        <img src="menu2.jpeg" alt="">
-        <img src="menu3.jpeg" alt="">
-
-      </div>
-      <hr>
-
-
-
-      <div id="locations">
-        <h1>Locations</h1>
-        <hr />
-        <div id="locations-wrapper">
-        <div id="lock">
-          <h2>CAMDEN LOCK MARKET
-          <br></h2>
-          <h3>NW1 8AF<br>10AM - 6PM</h3>
-          
-          </div>
-          <hr>
-          
-          <hr>
-      
-
-        
-        
-        <div id="buck">
-          <h2>BUCK STREET MARKET</h2>
-          <h3>NW1 8AF<br>10AM - 6PM</h3>
+        <div id="menu">
+          <h1>Menu</h1><hr>
+          <img src="menu1.jpeg" alt="">
+          <img src="menu2.jpeg" alt="">
+          <img src="menu3.jpeg" alt="">
 
         </div>
         <hr>
-    <hr>
-      </div>
-      </div>
 
 
 
-
-      <div id="gallery">
-        <h1>Gallery</h1>
-        <div id="pic-wrapper">
-        <img src="./gal2.jpg" alt="">
-        <img src="./gal3.jpg" alt="">
-        <img src="./gal4.jpg" alt="">
-        <img src="./gal5.jpg" alt="">
-        <img src="./gal6.jpg" alt="">
-        <img src="./gal7.jpg" alt="">
-        <img src="./gal8.jpg" alt="">
-        <img src="./gal4.jpg" alt="">
-        <img src="./gal3.jpg" alt="">
-      </div>
-      </div>
-  <hr>
-
-  <div id="delivery">
-    <h1>Delivery</h1>
-    <h2>Coming Soon</h2>
-  </div>
-  <hr>
-
-      <div id="contact-h1"><h1>Contact Us</h1></div>
-      <div id="contact">
-        
-        
-        <div class="container-contact">
-          
-          <form action="./contactform.php" method="POST">
-            <div class="form-group">
-              <label for="name" class="form-label">Your Name</label>
-              <input type="text" class="form-control" id="name" name="name" placeholder="Jane Doe" tabindex="1" required>
+        <div id="locations">
+          <h1>Locations</h1>
+          <hr />
+          <div id="locations-wrapper">
+          <div id="lock">
+            <h2>CAMDEN LOCK MARKET
+            <br></h2>
+            <h3>NW1 8AF<br>10AM - 6PM</h3>
+            
             </div>
-            <div class="form-group">
-              <label for="email" class="form-label">Your Email</label>
-            <input type="email" class="form-control" id="email" name="name" placeholder="jane@doe.com" tabindex="2" required>
+            <hr>
+            
+            <hr>
+        
+
+          
+          
+          <div id="buck">
+            <h2>BUCK STREET MARKET</h2>
+            <h3>NW1 8AF<br>10AM - 6PM</h3>
+
           </div>
-            <div class="form-group">
-              <label for="subject" class="form-label">Subject</label>
-            <input type="text" class="form-control" id="subject" name="subject" placeholder="Hello There!" tabindex="3" required>
-          </div>
-            <div class="form-group">
-              <label for="" class="form-label">Message</label>
-              <textarea class="form-control" rows="5" cols="50" id="message" name="message" placeholder="Enter Message..." tabindex="4"></textarea>
-          </div>
-          <div>
-            <button type="submit" class="btn">Send Message!</button>
-          </div>
-          </form>
+          <hr>
+      <hr>
         </div>
+        </div>
+
+
+
+
+        <div id="gallery">
+          <h1>Gallery</h1>
+          <div id="pic-wrapper">
+          <img src="./gal2.jpg" alt="">
+          <img src="./gal3.jpg" alt="">
+          <img src="./gal4.jpg" alt="">
+          <img src="./gal5.jpg" alt="">
+          <img src="./gal6.jpg" alt="">
+          <img src="./gal7.jpg" alt="">
+          <img src="./gal8.jpg" alt="">
+          <img src="./gal4.jpg" alt="">
+          <img src="./gal3.jpg" alt="">
+        </div>
+        </div>
+    <hr>
+
+    <div id="delivery">
+      <h1>Delivery</h1>
+      <h2>Coming Soon</h2>
+    </div>
+    <hr>
+
+        <div id="contact-h1"><h1>Contact Us</h1></div>
         
-      </div>
-      <p class="social">
-        <i class="fab fa-instagram-square"></i>
-        <i class="fab fa-facebook-square"></i>
-        <i class="fab fa-twitter-square"></i>
-      </p>
-    <iframe class="map" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-      src="https://www.openstreetmap.org/export/embed.html?bbox=-0.14820277690887454%2C51.540218021132695%2C-0.14466226100921634%2C51.54166102629619&amp;layer=mapnik&amp;marker=51.540939529433885%2C-0.1464325189590454"
-      style="border: 1px solid black"></iframe>
-      <footer>
-        <p>Designed by <a href="http://www.instagram.com/olivierldn">Oliwier Rynkiewicz</a> </p>
+        <p class="social">
+          <a href="http://www.instagram.com/arepazobros" class="fab fa-instagram-square" target="blank" >
+          
+        </a>
+        <a href="http://www.instagram.com/arepazobros"class="fab fa-facebook-square" target="blank">
         
-      </footer>
-      </div>
-        </body>
-      </html>
+          </a>
+          <a href="http://www.instagram.com/arepazobros"class="fab fa-facebook-messenger" target="blank">
+          
+          </a>
+          <a href="http://www.instagram.com/arepazobros"class="fab fa-twitter-square" target="blank">
+          
+      </a>
+        </p>
+      <iframe class="map" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=-0.14820277690887454%2C51.540218021132695%2C-0.14466226100921634%2C51.54166102629619&amp;layer=mapnik&amp;marker=51.540939529433885%2C-0.1464325189590454"
+        style="border: 1px solid black"></iframe>
+        <footer>
+          <p>Designed by <a href="http://www.instagram.com/olivierldn">Oliwier Rynkiewicz</a> </p>
+          
+        </footer>
+        </div>
+          </body>
+        </html>

@@ -170,7 +170,7 @@ hr {
   height: 80vw;
   background: url(./lock1.jpg);
   background-size: cover;
-  color: rgba(236, 105, 155, 0.836);
+  color: rgb(236, 105, 155);
   -webkit-text-stroke: 2px rgb(0, 0, 0);
 }
 
@@ -193,7 +193,7 @@ hr {
   height: 80vw;
   background: url(./buck.jpg);
   background-size: cover;
-  color: rgba(71, 179, 241, 0.836);
+  color: rgb(71, 179, 241);
   -webkit-text-stroke: 2px rgb(0, 0, 0);
 }
 
@@ -222,16 +222,13 @@ hr {
 #delivery h2 {
   margin-bottom: 40px;
 }
-#contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 #contact-h1 h1 {
   margin-bottom: 5px;
   font-size: 2.5em;
 }
-.container-contact {
+
+/* .container-contact {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.37);
   margin-top: 50px;
@@ -276,14 +273,26 @@ hr {
 }
 textarea {
   resize: none;
-}
+} */
+
 .map {
   width: 100vw;
   height: 40vh;
 }
 .social {
   font-size: 69px;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.452);
+  margin: 10px 0 20px 0;
+  border-radius: 10px;
 }
+.social a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+/* .social i {
+  margin: 0 3% 0 3%;
+} */
 footer {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -341,6 +350,12 @@ footer {
     padding: 5%;
     font-size: 1.6em;
   }
+  #locations h3 {
+    font-size: 2em;
+  }
+  .social a {
+    margin: 0 4% 0 4%;
+  }
 }
 
 @media screen and (min-width: 481px) {
@@ -350,12 +365,12 @@ footer {
   }
   #lock h2 {
     font-size: 3.5em;
-    padding-top: 30%;
+    padding-top: 20%;
   }
 
   #buck h2 {
     font-size: 3.5em;
-    padding-top: 30%;
+    padding-top: 20%;
   }
 }
 
@@ -368,14 +383,14 @@ footer {
   }
   #lock h2 {
     font-size: 3.8em;
-    padding-top: 30%;
+    padding-top: 20%;
     padding-left: 10%;
     padding-right: 10%;
   }
 
   #buck h2 {
     font-size: 3.8em;
-    padding-top: 30%;
+    padding-top: 20%;
     padding-left: 10%;
     padding-right: 10%;
   }
@@ -390,14 +405,14 @@ footer {
   }
   #lock h2 {
     font-size: 4em;
-    padding-top: 30%;
+    padding-top: 20%;
     padding-left: 10%;
     padding-right: 10%;
   }
 
   #buck h2 {
     font-size: 4em;
-    padding-top: 30%;
+    padding-top: 20%;
     padding-left: 10%;
     padding-right: 10%;
   }
@@ -411,20 +426,38 @@ footer {
   }
   #lock h2 {
     font-size: 4em;
-    padding-top: 30%;
+    padding-top: 25%;
     padding-left: 10%;
     padding-right: 10%;
   }
 
   #buck h2 {
     font-size: 4em;
-    padding-top: 30%;
+    padding-top: 25%;
     padding-left: 10%;
     padding-right: 10%;
   }
 }
 
 @media screen and (min-width: 682px) {
+  #about h1 {
+    font-size: 3em;
+  }
+  #menu h1 {
+    font-size: 3em;
+  }
+  #locations h1 {
+    font-size: 3em;
+  }
+  #gallery h1 {
+    font-size: 3em;
+  }
+  #delivery h1 {
+    font-size: 3em;
+  }
+  #contact-h1 h1 {
+    font-size: 3em;
+  }
   #about h2 {
     padding: 10%;
     font-size: 2em;
@@ -433,19 +466,19 @@ footer {
   }
   #lock h2 {
     font-size: 4em;
-    padding-top: 30%;
+    padding-top: 25%;
     padding-left: 10%;
     padding-right: 10%;
   }
 
   #buck h2 {
     font-size: 4em;
-    padding-top: 30%;
+    padding-top: 25%;
     padding-left: 10%;
     padding-right: 10%;
   }
   .container-contact {
-    width: 60%;
+    width: 100%;
     background-color: rgba(255, 255, 255, 0.37);
     margin-top: 50px;
   }
@@ -486,22 +519,28 @@ footer {
   #lock {
     width: 100%;
   }
+  #locations h3 {
+    font-size: 3em;
+  }
   #lock h2 {
     font-size: 4.5em;
-    padding-top: 40%;
+    padding-top: 30%;
     padding-left: 10%;
     padding-right: 10%;
   }
 
   #buck h2 {
     font-size: 4.5em;
-    padding-top: 40%;
+    padding-top: 30%;
     padding-left: 10%;
     padding-right: 10%;
   }
 
   #gallery img {
     width: 100%;
+  }
+  #delivery h2 {
+    font-size: 2em;
   }
   .map {
     width: 100%;
@@ -510,9 +549,27 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
+  #about h1 {
+    font-size: 4em;
+  }
+  #menu h1 {
+    font-size: 4em;
+  }
+  #locations h1 {
+    font-size: 4em;
+  }
+  #gallery h1 {
+    font-size: 4em;
+  }
+  #delivery h1 {
+    font-size: 4em;
+  }
+  #contact-h1 h1 {
+    font-size: 4em;
+  }
   #about h2 {
     padding: 20%;
-    font-size: 3em;
+    font-size: 3.5em;
     padding-left: 10%;
     padding-right: 10%;
   }
@@ -543,15 +600,18 @@ footer {
   }
   #lock h2 {
     font-size: 4.5em;
-    padding-top: 30vh;
+    padding-top: 30%;
     padding-left: 10%;
     padding-right: 10%;
   }
 
   #buck h2 {
     font-size: 4.5em;
-    padding-top: 30vh;
+    padding-top: 30%;
     padding-left: 10%;
     padding-right: 10%;
+  }
+  #delivery h2 {
+    font-size: 2.5em;
   }
 }
