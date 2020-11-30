@@ -227,8 +227,9 @@ hr {
   text-decoration: none;
   color: black;
   background-color: rgba(255, 255, 255, 0.452);
-  margin: 2px 10px 2px 10px;
-  border-radius: 10px;
+  margin: 10px 40px 10px 40px;
+  padding: 10px;
+  border-radius: 15px;
   font-size: 2em;
 }
 #contact-h1 h1 {
