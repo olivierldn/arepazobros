@@ -232,6 +232,17 @@ hr {
   border-radius: 15px;
   font-size: 2em;
 }
+#delivery .comingsoon {
+  display: block;
+  float: none;
+  font-size: 10px;
+  margin: auto;
+  margin-bottom: none;
+  width: 100px;
+  letter-spacing: 3px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+}
 #contact-h1 h1 {
   margin-bottom: 5px;
   font-size: 2.5em;
