@@ -168,6 +168,7 @@ hr {
   text-align: center;
   width: 100vw;
   height: 80vw;
+  max-height: 600px;
   background: url(./lock1.jpg);
   background-size: cover;
   color: rgb(236, 105, 155);
